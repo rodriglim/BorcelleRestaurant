@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Istok+Web:wght@400;700&family=Kaushan+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #010101;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    height: 12vh;
+    flex: 100%;
+    font-family: 'acme', sans-serif;
+}
+
+.left{
+    flex: 40%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.left a, .right a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: #FFF;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.left a:hover,  .right a:hover{
+    color: #FF0A0A;
+    transition: 2s;
+}
+.logo{
+    flex: 10%;
+}
+.logo img{
+    width: 90%;
+    height: 100px;
+}
+
+.right{
+    flex: 40%;
+    margin-left: 5%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    background: url("../assets/background-header.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.center h1{
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 145px;
+    text-align: center;
+    color: #FFF;
+}
+
+#color-red{
+    color: #FF0A0A;
+}
+
+.center p{
+    font-family: 'Istok web', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    margin-top: -15%;
+    color: #FFFF;
+}
+
+.center #btn-red{
+    margin-left: 32%;
+}
+
+.center #btn-red{
+    width: 200px;
+    height: 60px;
+    background-color: #FF0A0A;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Acme', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+.center #btn-red:hover{
+    background-color: transparent;
+    border: 4px solid #FF0A0A;
+    color: #FF0A0A;
+}
